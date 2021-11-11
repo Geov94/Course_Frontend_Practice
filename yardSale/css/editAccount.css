@@ -75,11 +75,17 @@ body{
     margin-bottom: 22px;
 }
 
-.primary-button {
-    background-color: var(--hospital-green);
+.value {
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    margin: 8px 0 32px 0;
+}
+
+.secondary-button {
+    background-color: var(--white);
     border-radius: 8px;
-    border: none;
-    color: var(--white);
+    border: 1px solid var(--hospital-green);
+    color: var(--hospital-green);
     width: 100%;
     cursor: pointer;
     font-size: var(--md);
